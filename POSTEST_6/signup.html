@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <form action="proses.php" method="get">
+                <h1>Sign Up</h1>
+                <hr>
+                <p>kuliner Nusantara</p>
+                <div class="input_wrap">
+                    <input type="text" name="name" placeholder="Name">
+                </div>
+                <div class="input_wrap">
+                    <input type="email"  name="email" placeholder="Email">
+                </div>
+                <div class="input_wrap">
+                   <input type="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" name="telpon" placeholder="No: 0000-0000-0000">
+                </div>
+                <div class="input_wrap">
+                    <input type="password"  name="password" placeholder="Password">
+                </div>
+                <button type="submit" value="proses data">Sign Up</button>
+                <p>
+                    <p>Belum punya akun? <a href="signin.html">Sign In</a></p>
+                </p>
+
+            </form>
+            
+        </div>
+        <div class="loginlg">
+            <img src="img/logo.png" alt="">
+        </div>
+        
+        
+    </div>
+</body>
+</html>

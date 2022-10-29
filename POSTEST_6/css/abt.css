@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Questrial&family=Roboto&display=swap');
+
+body{
+    padding: 100px;
+    background-color: #F8EDE3;
+    text-align: center;
+    font-family: 'Quicksand',sans-serif;
+    box-sizing: border-box;
+}
+ul{
+    margin-left: px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+.main{
+    width: 800px;
+    height: 400px;
+    background-color: #D0B8A8;
+    margin: 0 auto;
+    padding-top: 50px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.img{
+    background-image: url(me.png);
+    background-color: #7D6E83;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin: o;
+    font-weight: bold;
+    color: #7D6E83;
+}
+
+.text{
+    text-align: center;
+    font-size: 15px;
+    margin:0;
+    color: #7D6E83;
+}
+
